@@ -65,7 +65,7 @@ public class Main {
             System.out.println("\n========== DISTRIBUTEUR AUTOMATIQUE =====");
             System.out.println("Produits disponibles :");
             for (int i = 0; i < produits.size(); i++) {
-                System.out.println((i + 1) + ". " + produits.get(i) + " - " + prix.get(i) + "£" + " (Stock : " + stock.get(i) + ")");
+                System.out.println((i + 1) + ". " + produits.get(i) + " - " + prix.get(i) + "MAD" + " (Stock : " + stock.get(i) + ")");
             }
             System.out.println("0. Quitter");
             System.out.print("\nChoisissez un produit (0 pour quitter) : ");
